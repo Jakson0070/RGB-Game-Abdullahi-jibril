@@ -7,11 +7,55 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>RGB Color Game</h1>
-<div id="color-display"></div>
-<div id="boxes"></div>
-<button id="reset-button">Click Me</button>
-<div id="message"></div>
+
+<header class="jumia-header">
+	<div class="jumia-topbar">
+		<img src="https://www.jumia.com.ng/assets_he/images/logos/jumia.png" alt="Jumia Logo" class="jumia-logo">
+		<input type="text" class="jumia-search" placeholder="Search products, brands and categories">
+		<button class="jumia-search-btn">Search</button>
+		<nav class="jumia-nav">
+			<a href="#">Home</a>
+			<a href="#">Phones & Tablets</a>
+			<a href="#">Electronics</a>
+			<a href="#">Fashion</a>
+			<a href="#">Supermarket</a>
+			<a href="#">Health & Beauty</a>
+		</nav>
+	</div>
+</header>
+
+<main class="jumia-main">
+	<section class="jumia-products">
+		<h2>Top Deals</h2>
+		<div class="jumia-product-grid">
+			<div class="jumia-product-card">
+				<img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/12/2850032/1.jpg" alt="Product 1">
+				<div class="jumia-product-info">
+					<h3>Smartphone X</h3>
+					<p class="jumia-price">₦120,000</p>
+					<button class="jumia-buy-btn">Buy Now</button>
+				</div>
+			</div>
+			<div class="jumia-product-card">
+				<img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/10/2850032/1.jpg" alt="Product 2">
+				<div class="jumia-product-info">
+					<h3>Wireless Headphones</h3>
+					<p class="jumia-price">₦15,000</p>
+					<button class="jumia-buy-btn">Buy Now</button>
+				</div>
+			</div>
+			<div class="jumia-product-card">
+				<img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/13/2850032/1.jpg" alt="Product 3">
+				<div class="jumia-product-info">
+					<h3>Smart TV 43"</h3>
+					<p class="jumia-price">₦180,000</p>
+					<button class="jumia-buy-btn">Buy Now</button>
+				</div>
+			</div>
+			<!-- Add more product cards as needed -->
+		</div>
+	</section>
+</main>
 
 <script src="script.js"></script>
 </body>
